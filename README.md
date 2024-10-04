@@ -4,6 +4,8 @@ The API Swagger UI with the endpoints documented can be accessed on: `http://loc
 
 I made a Insomnia collection that can be imported on Insomnia to test the API, just needing to adjust the `ids` and set the JWT token, since it expires.
 
+(The `.env` is included to make the testing easier since is a test project)
+
 ## Installation
 
 Install `docker` and `docker-compose`

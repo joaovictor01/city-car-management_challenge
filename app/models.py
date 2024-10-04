@@ -5,10 +5,6 @@ from werkzeug.security import check_password_hash, generate_password_hash
 
 from app.extensions import db
 
-# from flask_jwt_extended import create_access_token
-
-MAX_CARS_PER_PERSON = 3
-
 
 class User(db.Model):
     id = db.Column(db.Integer, autoincrement=True, primary_key=True)
